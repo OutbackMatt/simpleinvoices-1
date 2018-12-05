@@ -327,7 +327,7 @@ switch ($module) {
 }
 
 // get the url - used for templates / pdf
-$siUrl = getURL();
+$siUrl = get_include_path().'./';
 
 /* *************************************************************
  * If using the following line, the DB settings should be
